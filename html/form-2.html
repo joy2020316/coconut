@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>form-2.html</title>
+</head>
+<body>
+    <fieldset > 
+        <legend>表單介紹</legend>
+        <form action="" method="">
+            <table>
+                <tr>
+                    <td>帳號 :</td>
+                    <td><input type="text" name="acc" value="apple"></td>
+                </tr>
+                <tr>
+                    <td>密碼 :</td>
+                    <td><input type="password" name="pwd" value="1234"></td>
+                </tr>
+                <tr>
+                    <td>性別:</td>
+                    <td>
+                    <input type="radio" name="sex" value="1" id="sexb">
+                    <label for="sexb">男</label> 
+                    <input type="radio" name="sex" value="2" id="sexg">
+                    <label for="sexg"> 女</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>生日:</td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>信箱:</td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>興趣:</td>
+                    <td>
+                        <input type="checkbox" name="like" id="like1" value="拍照">
+                        <label for="like1">拍照</label> 
+                        <input type="checkbox" name="like" id="like2" value="閱讀">
+                        <label for="like2">閱讀</label>
+                        <input type="checkbox" name="like" id="like3" value="唱歌">
+                        <label for="like3">唱歌</label> 
+                        <input type="checkbox" name="like" id="like4" value="逛街">
+                        <label for="like4">逛街</label> 
+                        <input type="checkbox" name="like" id="like5" value="寫程式">
+                        <label for="like5">寫程式</label> 
+                    </td>
+                </tr>
+                <td>學歷:</td>
+                <td>
+                    <select name="school">
+                        <option value="">請選擇</option>
+                        <option value="博士">博士</option>
+                        <option value="碩士">碩士</option>
+                        <option value="大學" selected >大學</option>
+                        <option value="專科">專科</option>
+                        <option value="高中職以下">高中職以下</option>
+                    </section>
+                </td>
+                <tr>
+                    <td>照片上傳:</td>
+                    <td>
+                        <input type="file" name="pic">
+                    </td>
+                </tr>
+                <tr>
+                    <td>留言:</td>
+                    <td><textarea name="" cols="30" rows="3" >好棒棒</textarea></td>
+                </tr>
+            </table>
+            <hr>
+            <center><input type="submit">
+            <input type="reset"></center>
+        </form>
+    </fieldset>
+</body>
+
+</html>

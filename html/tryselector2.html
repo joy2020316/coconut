@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trySelector2</title>
+</head>
+<style>
+  
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: blue;
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover{
+        color: rgb(255, 0, 191);
+    }
+    a:active{
+        color: blueviolet;
+    }
+    h1:not(.odd){
+        color: green;
+    }
+    body:not(h1){
+        font-size: larger;
+    }
+    table{
+            width: 100%;
+        }
+    tr>.odd{
+        background-color: grey;
+    }
+</style>
+<body>
+    <table>
+        <tr> <td class="odd">001</td></tr>
+        <tr> <td>002</td></tr>
+        <tr> <td class="odd">003</td></tr>
+        <tr> <td>004</td></tr>
+        <tr> <td class="odd">005</td></tr>
+        <tr> <td>006</td></tr>
+    </table>
+    <br>
+    <a href="http://www.google.com">google.</a>
+    <a href="http://www.kimo.com">kimo.</a>
+    <a href="http://www.momo.com">momo.</a>
+    <a href="http://www.yam.com">yam.</a>
+    <a href="http://www.msn.com">msn</a>
+    <br>
+    <h1 class="odd">lorem ipsum dolor sit amet.</h1>
+    <h1>lorem ipsum dolor sit amet.</h1>
+    <h1 class="odd">lorem ipsum dolor sit amet.</h1>
+    <h1>lorem ipsum dolor sit amet.</h1>
+    <h1 class="odd">lorem ipsum dolor sit amet.</h1>
+    <h1>lorem ipsum dolor sit amet.</h1>
+    
+</body>
+</html>

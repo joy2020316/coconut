@@ -1,0 +1,18 @@
+*{
+    margin: 10px 20px;
+}
+h1{
+    color: blueviolet;
+}
+._2{
+    width: 1000px;
+    height: 32px;
+    background-color: rgb(223, 100, 235);
+}
+div p{
+    color: #787878;
+}
+div.blue>p{
+    color: blue
+    ;
+}
